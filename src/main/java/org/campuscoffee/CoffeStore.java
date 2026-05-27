@@ -27,7 +27,7 @@ public class CoffeStore {
         return prices;
     }
     public void setPrice( String coffee, int price) {
-        if(price > 0)
+        if(price >= 0)
             prices.put(coffee,price);
     }
 
